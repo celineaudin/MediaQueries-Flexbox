@@ -1,0 +1,60 @@
+.container{
+display: flex;
+font-size: 1.5em;
+}
+.header{
+  background-color: #66CC00;
+  height: 100px;
+  width: 1000px;
+
+}
+.navbar{
+  display: flex;
+  background-color: #FFCC99;
+  height: 50px;
+  width: 1000px;
+  font-size: 1em;
+  justify-content: center;
+  align-content: center;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    margin: 10px;
+}
+
+nav a{
+margin: 80px;
+}
+
+.center{
+  display:flex;
+}
+.aside{
+  background-color: yellow;
+  width: 200px;
+  height:400px;
+}
+.aside2{
+  background-color: #FF6666;
+  width: 200px;
+  height: 400px;
+}
+
+.section{
+  background-color: #00FFFF;
+  width: 600px;
+  height: 400px;
+}
+footer{
+    background: lightgrey;
+}
+footer ul{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+flex-wrap: wrap;
+height: 100px;
+margin: 0px;
+}
